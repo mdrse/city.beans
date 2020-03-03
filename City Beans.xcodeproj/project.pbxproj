@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3206CD4240EAABD00A43348 /* cappuccino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3206CD3240EAABD00A43348 /* cappuccino.jpg */; };
+		C3206CD6240EAAFD00A43348 /* black-coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3206CD5240EAAFD00A43348 /* black-coffee.jpg */; };
+		C3206CD8240EAB5500A43348 /* white-coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3206CD7240EAB5400A43348 /* white-coffee.jpg */; };
+		C3206CDC240EABFE00A43348 /* espresso.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3206CDB240EABFE00A43348 /* espresso.jpeg */; };
+		C3206CDE240EAC3D00A43348 /* latte.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3206CDD240EAC3D00A43348 /* latte.jpeg */; };
 		C3C4DD1E240E7935009A0FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4DD1D240E7935009A0FCC /* AppDelegate.swift */; };
 		C3C4DD20240E7935009A0FCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4DD1F240E7935009A0FCC /* ViewController.swift */; };
 		C3C4DD23240E7935009A0FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C4DD21240E7935009A0FCC /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		C3C4DD28240E7935009A0FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C4DD26240E7935009A0FCC /* LaunchScreen.storyboard */; };
 		C3C4DD33240E7935009A0FCC /* City_BeansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4DD32240E7935009A0FCC /* City_BeansTests.swift */; };
 		C3C4DD3E240E7935009A0FCC /* City_BeansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4DD3D240E7935009A0FCC /* City_BeansUITests.swift */; };
+		C3C4DD4C240E7BDD009A0FCC /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C4DD4B240E7BDD009A0FCC /* Logo.png */; };
+		C3C4DD4E240E921D009A0FCC /* Tea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3C4DD4D240E921D009A0FCC /* Tea.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3206CD3240EAABD00A43348 /* cappuccino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cappuccino.jpg; path = Resources/cappuccino.jpg; sourceTree = "<group>"; };
+		C3206CD5240EAAFD00A43348 /* black-coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "black-coffee.jpg"; path = "Resources/black-coffee.jpg"; sourceTree = "<group>"; };
+		C3206CD7240EAB5400A43348 /* white-coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "white-coffee.jpg"; path = "Resources/white-coffee.jpg"; sourceTree = "<group>"; };
+		C3206CDB240EABFE00A43348 /* espresso.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = espresso.jpeg; path = Resources/espresso.jpeg; sourceTree = "<group>"; };
+		C3206CDD240EAC3D00A43348 /* latte.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = latte.jpeg; path = Resources/latte.jpeg; sourceTree = "<group>"; };
 		C3C4DD1A240E7935009A0FCC /* City Beans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Beans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C4DD1D240E7935009A0FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3C4DD1F240E7935009A0FCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		C3C4DD39240E7935009A0FCC /* City BeansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City BeansUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C4DD3D240E7935009A0FCC /* City_BeansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_BeansUITests.swift; sourceTree = "<group>"; };
 		C3C4DD3F240E7935009A0FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C4DD4B240E7BDD009A0FCC /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = Resources/Logo.png; sourceTree = SOURCE_ROOT; };
+		C3C4DD4D240E921D009A0FCC /* Tea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tea.jpeg; path = Resources/Tea.jpeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,11 @@
 		C3C4DD11240E7935009A0FCC = {
 			isa = PBXGroup;
 			children = (
+				C3206CDD240EAC3D00A43348 /* latte.jpeg */,
+				C3206CDB240EABFE00A43348 /* espresso.jpeg */,
+				C3206CD7240EAB5400A43348 /* white-coffee.jpg */,
+				C3206CD5240EAAFD00A43348 /* black-coffee.jpg */,
+				C3206CD3240EAABD00A43348 /* cappuccino.jpg */,
 				C3C4DD1C240E7935009A0FCC /* City Beans */,
 				C3C4DD31240E7935009A0FCC /* City BeansTests */,
 				C3C4DD3C240E7935009A0FCC /* City BeansUITests */,
@@ -100,6 +119,8 @@
 				C3C4DD1D240E7935009A0FCC /* AppDelegate.swift */,
 				C3C4DD1F240E7935009A0FCC /* ViewController.swift */,
 				C3C4DD21240E7935009A0FCC /* Main.storyboard */,
+				C3C4DD4D240E921D009A0FCC /* Tea.jpeg */,
+				C3C4DD4B240E7BDD009A0FCC /* Logo.png */,
 				C3C4DD24240E7935009A0FCC /* Assets.xcassets */,
 				C3C4DD26240E7935009A0FCC /* LaunchScreen.storyboard */,
 				C3C4DD29240E7935009A0FCC /* Info.plist */,
@@ -229,8 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3206CD4240EAABD00A43348 /* cappuccino.jpg in Resources */,
+				C3C4DD4C240E7BDD009A0FCC /* Logo.png in Resources */,
+				C3C4DD4E240E921D009A0FCC /* Tea.jpeg in Resources */,
+				C3206CDC240EABFE00A43348 /* espresso.jpeg in Resources */,
 				C3C4DD28240E7935009A0FCC /* LaunchScreen.storyboard in Resources */,
 				C3C4DD25240E7935009A0FCC /* Assets.xcassets in Resources */,
+				C3206CDE240EAC3D00A43348 /* latte.jpeg in Resources */,
+				C3206CD8240EAB5500A43348 /* white-coffee.jpg in Resources */,
+				C3206CD6240EAAFD00A43348 /* black-coffee.jpg in Resources */,
 				C3C4DD23240E7935009A0FCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
